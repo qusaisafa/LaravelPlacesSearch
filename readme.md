@@ -2,7 +2,7 @@
 Laravel APP to search for places Using Google API
 by Qusai Safa
 
-![alt text](https://ibb.co/fe975S)
+![VIEW](https://github.com/qusaisafa/LaravelPlacesSearch/blob/master/Capture.PNG?raw=true)
 
 
 
