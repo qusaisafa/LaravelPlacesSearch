@@ -16,4 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('api/v1/search', 'SearchController@index'); //  API health
-Route::post('api/v1/search', 'SearchController@show'); // get places by text, input -> query : "String"
+Route::post('api/v1/search', 'SearchController@search'); // get places by text, input -> query : "String"
+Route::post('api/v1/search/details', 'SearchController@placeDetails'); // PlaceId as input

@@ -9,5 +9,6 @@ namespace App;
 class GoogleStatics
 {
     public static  $searchByTextAPI = 'https://maps.googleapis.com/maps/api/place/textsearch/json';
+    public static  $searchByPlaceId = 'https://maps.googleapis.com/maps/api/place/details/json';
     public static $key = 'AIzaSyAo78nbbhI1foUl-jhc-JBxc1uAEswMMyI';
 }

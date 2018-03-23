@@ -8,7 +8,8 @@ class Place
 {
     public $formatted_address;
     public $photos;
-    public $rating;
     public $types;
     public $name;
+    public $placeId;
+
 }
