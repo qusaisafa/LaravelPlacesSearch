@@ -37,11 +37,14 @@ class SearchController extends Controller
 
     public function placeDetails(Request $request){
         $placeId = $request->input('placeId');  //input parameter
-        $url = GoogleStatics::$searchByTextAPI . "?placeid=" . $placeId . "&key=" . GoogleStatics::$key;  //Google API
+        $url = GoogleStatics::$searchByPlaceId . "?placeid=" . $placeId . "&key=" . GoogleStatics::$key;  //Google API
         $jsonResult = Utils::external_get_request($url);
         $arr = json_decode($jsonResult, true);  //parsing response
         $details = $arr["results"];
-        return $details;
+        if($details)
+            return $arr;
+        else
+            return "No results found or the Place id is wrong";
     }
 }
 
