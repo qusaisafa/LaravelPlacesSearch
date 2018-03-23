@@ -1,3 +1,16 @@
+
+Laravel APP to search for places Using Google API
+by Qusai Safa
+
+![alt text](https://ibb.co/fe975S)
+
+
+
+
+
+
+
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
